@@ -79,3 +79,31 @@ a{
     font-size: 14px;
 }
 
+.random-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.random-info-container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.image-text{
+    display: flex;
+    flex-direction: column;
+    max-width: 160px;
+    gap: 8px;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(85, 85, 85);
+}
+
+
