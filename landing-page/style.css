@@ -2,6 +2,7 @@ body{
     display: flex;
     flex-direction: column;
     font-family: "Roboto";
+    gap: 100px;
 }
 
 ul {
@@ -25,6 +26,7 @@ a{
     padding: 0;
     color: #F9FAF8;
     padding-bottom: 100px;
+
 }
 
 .top-header{
@@ -65,7 +67,7 @@ a{
 
 .sub-header-info{
     max-width: 380px;
-    color: #E5E7EB;
+    color: rgb(168, 168, 168);
     font-size: 18px;
 }
 
@@ -83,8 +85,6 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
@@ -106,4 +106,23 @@ a{
     color: rgb(85, 85, 85);
 }
 
+.quote-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 100px;
+}
 
+.quote{
+    font-size: 36px;
+    max-width: 780px;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.author{
+    padding-left: 550px;
+    font-size: 20px;
+    font-weight: 600;
+}
