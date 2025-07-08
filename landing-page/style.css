@@ -3,6 +3,7 @@ body{
     flex-direction: column;
     font-family: "Roboto";
     gap: 100px;
+    margin: 0;
 }
 
 ul {
@@ -155,4 +156,13 @@ a{
 
 .white{
     border: 1px solid white;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937 ;
+    color: rgb(180, 178, 178);
+    padding: 20px;
+    
 }
